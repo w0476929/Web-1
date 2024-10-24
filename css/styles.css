@@ -1,0 +1,21 @@
+body {
+    background-color: #001839;
+}
+
+h1, h2 {
+    color:#5c7fb0; 
+}
+
+h2 {
+    font-size: 21px;
+}
+
+a, ul {
+   color:cornflowerblue;
+    font-size: 12px
+}
+
+.purple-text {
+    color: rebeccapurple;
+}
+
