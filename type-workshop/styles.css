@@ -1,17 +1,60 @@
 @font-face {
     font-family: "lato";
-    src: url(../fonts/lato-black.ttf);
+    src: url(../fonts/lato/lato-black.ttf);
+}
+
+@font-face {
+    font-family: "archivo narrow";
+    src: url(../fonts/archivo_narrow/static/archivonarrow-bold.ttf);
+}
+
+@font-face {
+    font-family: "bebas_neue";
+    src: url(../fonts/bebasneue-regular.ttf);
+}
+
+@font-face {
+    font-family: "doto";
+    src: url(../fonts/doto/static/doto-black.ttf);
+}
+
+@font-face {
+    font-family: "edu_au_vic_wa_nt_pre";
+    src: url(../fonts/edu_au_vic_wa_nt_pre/static/eduauvicwantpre-bold.ttf);
+}
+
+@font-face {
+    font-family: "faculty_glyphic";
+    src: url(../fonts/facultyglyphic-regular.ttf);
+}
+
+@font-face {
+    font-family: "geist_mono";
+    src: url(../fonts/geist_mono/static/geistmono-light.ttf);
+}
+
+@font-face {
+    font-family: "host_grotesk";
+    src: url(../fonts/host_grotesk/static/hostgrotesk-bold.ttf);
+}
+
+@font-face {
+    font-family: "josefin_sans";
+    src: url(../fonts/josefin_sans/static/josefinsans-regular.ttf);
+}
+
+@font-face {
+    font-family: "roboto_slab";
+    src: url(../fonts/roboto_slab/static/robotoslab-extrabold.ttf);
 }
 
 body {
     background-color:#c17fff;
 }
 
-.type-wrapper {
-    font-family: "lato" , sans-serif;
-}
 
 .type1 {
+    font-family: "lato", sans-serif;
     font-weight:100;
     letter-spacing: 5px;
     line-height: 3;
@@ -20,12 +63,14 @@ body {
 }
 
 .type2 {
+    font-family: "archivo narrow", sans-serif;
     font-weight:200;
     font-size: 2em;
     text-align: right;
 }
 
 .type3 {
+    font-family: "bebas_neue", serif;
     font-weight:300;
     letter-spacing: 8px;
     line-height: 6;
@@ -33,6 +78,7 @@ body {
 
 
 .type4 {
+    font-family: "doto", sans-serif;
     font-weight:400;
     font-size: 3em;
     text-align: center;
@@ -40,6 +86,7 @@ body {
 
 
 .type5 {
+    font-family: "edu_au_vic_wa_nt_pre", serif;
     font-weight:500;
     letter-spacing: 15px;
     line-height: 9;
@@ -47,6 +94,7 @@ body {
 
 
 .type6 {
+    font-family: "faculty_glyphic", serif;
     font-weight:600;
     font-size: 2em;
     text-align: right;
@@ -54,6 +102,7 @@ body {
 
 
 .type7 {
+    font-family: "geist_mono", serif;
     font-weight:700;
     letter-spacing: 28px;
     line-height: 3;
@@ -61,6 +110,7 @@ body {
 
 
 .type8 {
+    font-family: "host_grotesk", serif;
     font-weight:800;
     font-size: 3em;
     text-align: center;
@@ -68,6 +118,7 @@ body {
 
 
 .type9 {
+    font-family: "josefin_sans", serif;
     font-weight:900;
     letter-spacing: 6px;
     line-height: 1;
@@ -75,6 +126,7 @@ body {
 
 
 .type10 {
+    font-family: "roboto_slab", serif;
     font-weight:1000;
     font-size: 1em;
     text-align: center;
