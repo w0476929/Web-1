@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
     font-family: "lato";
     src: url(../fonts/lato/lato-black.ttf);
 }
@@ -47,7 +47,7 @@
     font-family: "roboto_slab";
     src: url(../fonts/roboto_slab/static/robotoslab-extrabold.ttf);
 }
-
+*/
 body {
     background-color:#c17fff;
 }
