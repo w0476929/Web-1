@@ -1,0 +1,90 @@
+.yellow-container {
+    background-color: yellow;
+    width: 700px;
+    height: 958px;
+}
+
+.green-container {
+    display: inline-block;
+    background-color: green;
+    width: 601px;
+    height: 195px;
+    margin: 20px 50px auto;      
+}
+
+.blue-container {
+    display: inline-block;
+    background-color: aqua;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 23px 27px;  
+}
+
+.tan-container {
+    background-color: tan;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 25px;
+    float: right;
+        
+}
+
+.teal-container {
+    display: inline-block;
+    background-color: teal;
+    width: 601px;
+    height: 400px;
+    margin: 20px 50px auto;        
+}
+    
+.white-container {
+    display: inline-block;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 23px 27px;  
+}
+
+.black-container {
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    color: white;
+    margin: 25px;
+    float: right;
+}
+
+.orange-container {
+    background-color: orange;
+    height: 150px;
+    text-align: center;
+    margin: 2px 27px;  
+}
+
+.brown-container {
+     display: inline-block;
+    background-color: #602b2b;
+    width: 601px;
+    height: 246px;
+    margin: 20px 50px auto;
+    color: white;
+}
+
+.purple-container {
+    background-color: #491b49;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    color: white;
+    margin: 23px 27px;
+    float: left;
+}
+
+
+            
+        
+              
