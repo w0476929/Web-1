@@ -117,7 +117,6 @@ h3 {
     flex-wrap: wrap;
     gap: 16px;
     justify-content: space-between;
-    padding: 70px;
 }
 
 .text-one, .text-three {
