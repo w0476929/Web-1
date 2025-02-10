@@ -1,0 +1,238 @@
+
+
+
+
+
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-family: "Aoboshi One", serif;
+    font-size:64px;
+}
+
+h2 {
+    font-family: "Aoboshi One", serif;
+    font-size:32px;
+}
+
+h3 {
+    font-family: "Aoboshi One", serif;
+    font-size:20px;
+}
+h6 {
+    font-family: "Aoboshi One", serif;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+p {
+    font-family: "Inter", serif;
+    font-size: 20px;
+}
+
+
+/*navigation*/
+header {
+    display: flex;
+    padding: 40px 60px;
+    align-items: center;
+    background-color: #ffffff;
+}
+.left-items {
+    width: 100%;
+}
+
+.logo {
+    width:127px;
+    height:40px;
+}
+
+.right-items {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+    width: 100%;
+}
+
+/*Hero Banner*/
+.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    height: 548px;
+    padding: 0 16px;
+    background-image: url(../images/banners/hero-bg.jpg);
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+}
+
+.button {
+    padding: 8px 24px;
+    background-color: #FFC900;
+    text-decoration: none;
+    color: black;
+    font-family: "inter", serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+/*Hero Section*/
+.mens-section, .womens-section {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 60px;
+    align-items:center;
+}
+
+.mini-header-men {
+    display: flex;
+    gap: 680px;
+    padding: 20px 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.mini-header-women {
+    display: flex;
+    gap: 620px;
+    padding: 20px 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.mini-h2 {
+    font-weight: 100;
+    font-size: 32px;
+}
+
+.mini-h3 {
+    font-family: "Inter" , serif;
+    font-weight: 100;
+    font-size: 26px;
+}
+
+
+.mens, .womens {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+.column-one, .column-two, .column-three, .column-four {
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+    width: 262px;
+}
+
+
+.image-one, .image-two, .image-three, .image-four {
+    display: flex;
+    width: 262px;
+    height: 370px;
+}
+
+.bottom-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 380px;
+    padding: 50px 0;
+    background-image: url(../images/banners/sale-bg.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    align-items: flex-start;
+    width: 1118px;
+    padding-left: 70px;
+}
+
+.button-2 {
+    padding: 8px 24px;
+    margin-top: 10px;
+    background-color: #000000;
+    text-decoration: none;
+    color: #ffc900;
+    font-family: "Inter" , serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+/*footer*/
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    background-color: #000000;
+    width: 100%;
+    height: 340px;
+} 
+
+.white-text {
+    color: #ffffff;
+    font-family: "Inter", serif;
+}
+
+.white-text-bold {
+    color: #ffffff;
+    font-family: "Inter", serif;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 10px;
+    font-weight: 100;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.about-zenin, .quick-zenin, .social zenin { 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+    font-size: 15px;
+    font-weight: 200;
+
+}
+
+.links { 
+    display: flex;
+    gap: 10px;
+}
