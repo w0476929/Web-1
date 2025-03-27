@@ -1,0 +1,360 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Manrope", sans-serif;
+}
+
+h1, h2 {
+    font-size: 42px;
+    font-weight: 400;
+    letter-spacing: -2%;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: -2%;
+}
+
+p {
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: -1%;
+}
+
+strong {
+    font-weight: 600;
+}
+
+.lg-text {
+    font-size: 28px;
+    letter-spacing: -2%;
+    font-weight: 300;
+}
+
+img {
+    width: 100%;
+}
+
+.button {
+    display: flex;
+    padding: 16px 36px;
+    border-radius: 50px;
+    background-color: #111111;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-decoration: none;
+    width: fit-content;
+}
+
+.badge {
+    display: flex;
+    padding: 5px 10px;
+    border: 0.8px solid #111111;
+    border-radius: 20px;
+    font-size: 12px;
+    width: fit-content;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 120px 16px;
+    text-align: center;
+}
+
+.hero p {
+    max-width: 644px;
+}
+
+/* About Section */
+.about {
+    display: flex;
+    justify-content: center;
+    background-color: #FBFAF3;
+    padding: 120px 16px;
+}
+
+.about .inner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1078px;
+}
+
+.about img {
+    max-width: 463px;
+    height: 435px;
+    object-fit: cover;
+}
+
+.about .text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    max-width: 457px;
+    padding-left: 16px;
+}
+
+/* Services Section */
+.our-services {
+    display: flex;
+    justify-content: center;
+    padding: 80px 16px;
+}
+
+.our-services .inner-container {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    width: 100%;
+    max-width: 1340px;
+}
+
+.services {
+    display: flex;
+    gap: 50px;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.service .text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Testimonial Section */
+.testimonial {
+    display: flex;
+    justify-content: center;
+    background-color: #FBFAF3;
+    padding: 120px 16px;
+}
+
+.testimonial .inner-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1078px;
+}
+
+.testimonial .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 360px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.location {
+    font-size: 12px;
+}
+
+.testimonial img {
+    max-width: 490px;
+    height: 490px;
+    object-fit: cover;
+}
+
+/* Pricing Section */
+.pricing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 76px;
+    padding: 80px 16px;
+    text-align: center;
+}
+
+.pricing .text {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.options {
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    max-width: 876px;
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: left;
+    padding: 50px;
+    border: 1px solid #CFCFCF;
+    border-radius: 10px;
+}
+
+.option .text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 14px;
+    list-style-type: none;
+}
+
+.pricing .button {
+    width: auto;
+    justify-content: center;
+}
+
+/* CTA: Newsletter Sign Up */
+.cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 80px 16px;
+    background-color: #FFEE58;
+    text-align: center;
+}
+
+.cta p {
+    max-width: 805px;
+}
+
+.email-form {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    max-width: 352px;
+    padding: 17px 25px;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+}
+
+/*Mobile View*/
+@media only screen and (max-width: 768px) {
+    /*Hero Section*/
+    .hero {
+        flex-direction: column;
+        gap: 30px;
+        max-width: none;
+    }
+    
+    /*About Section*/
+    .about {
+        padding: 40px 16px;
+    }
+    
+    .about .inner-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .about .text {
+        max-width: none;
+    }
+    
+    .about img {
+        max-width: none;
+    }
+    
+    /* Services Section */
+    .our-services {
+        flex-direction: column;
+        gap: 20px;
+        max-width: none;
+    }
+    
+    .our-services .inner-container {
+        flex-direction: column;
+        gap: 56px;
+        max-width: none;
+    }
+    
+    .services {
+        flex-direction: column;
+        gap: 50px;
+        max-width: none;
+    }
+    
+    .service {
+        flex-direction: column;
+        gap: 30px;
+        max-width: none;
+    }
+    
+    .our-services .text {
+        max-width: none;
+    }
+    
+    .our-services img {
+        max-width: none;
+    }
+    
+    /*Testimonial Section*/
+    .testimonial {
+        padding: 40px 16px;
+    }
+    
+    .testimonial .inner-container {
+        flex-direction: column-reverse;
+        gap: 16px;
+    }
+    
+    .testimonial .text {
+        max-width: none;
+    }
+    
+    .testimonial img {
+        max-width: none;
+    }
+    
+    /* Pricing Section */
+    .pricing {
+        flex-direction: column;
+        gap: 76px;
+        max-width: none;
+    }
+    
+    .options {
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+    /* CTA: Newsletter Sign Up */
+    .cta {
+        flex-direction: column;
+        gap: 40px;
+        max-width: none;
+    }
+    
+    .email-form {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+}
