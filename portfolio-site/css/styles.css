@@ -181,12 +181,14 @@ h5 {
     
     .artwork-section {
         flex-direction: column;
+        height: 2342px;
+        
     }
     
     .artworks {
         padding: 120px 146px;
         flex-direction: column;
-        height: 2342px;
+        height: 2102px;
         gap: 109px;
         
     }
@@ -205,5 +207,9 @@ h5 {
         gap: 0; 
     }
     
+    .catcat {
+        height: 561px;
+        width: 607px;
+    }
     
 }
